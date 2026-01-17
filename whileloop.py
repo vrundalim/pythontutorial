@@ -66,10 +66,22 @@
 # else:
 #    print("it's not a spy number",v)
 
+# n=  34
+# for  i in range (1,11):
+#    for  j in range(i,n+1,10):
+#       print(j,end = " ")
+      
+#    print()
 
-a = -1
-if a < 0:
- print("negitve")
-else:
- print("positive")
- 
+
+# for  j in range(1,5):
+#    for  k in range(1,j*2,2):
+#       print(k,end = " ")
+#    print()
+
+   
+n = 1
+for k in range(1,4):
+   for  l in range(1,n+1,5):
+      print(l,end = " ")
+   print()

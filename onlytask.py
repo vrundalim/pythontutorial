@@ -187,24 +187,24 @@ print("total number is :",c)
 #    a +=1
 
 #check the after factorial number will same as original
-# a = 145
-# e = 0
-# g = a
-# while a > 0 :
-#       c = a % 10
+a = 145
+e = 0
+g = a
+while a > 0 :
+      c = a % 10
 
-#       f = 1
-#       while c > 0:
-#          f = f*c
-#          c -=1
+      f = 1
+      while c > 0:
+         f = f*c
+         c -=1
 
-#       e += f
-#       a //=10
+      e += f
+      a //=10
 
-# if e == g:          
-#  print(e)
-# else:
-#  print("") 
+if e == g:          
+ print(e)
+else:
+ print("") 
 
 # print 1 to 1000 palidrome number
 # a = 1
@@ -260,7 +260,7 @@ print("total number is :",c)
 #       sum = sum + g
 #       a//=10
 # if sum == og:
-#     print("its a armstrong")
+#     print("its a armstrong",sum)
 # else:
 #     print("no")
 
